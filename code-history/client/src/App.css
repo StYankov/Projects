@@ -1,0 +1,240 @@
+html, 
+body {
+    height: 100%;
+    background-color: #e7e7de;
+}
+
+#root, #main {
+  height: 100%;
+}
+
+.container {
+  border: 1px solid rgb(116, 116, 116);
+  border-top: 0;
+}
+
+.row { 
+  margin: 0;
+}
+
+.container-fluid {
+  background: #55d6aa;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo { 
+  float: left;
+}
+
+.logo span {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 22px;
+  padding: 10 0;
+  line-height: 50px;
+}
+
+header nav {
+  float: right;
+}
+
+header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 50px;
+  line-height: 50px;
+
+  position: relative;
+}
+
+nav ul li a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 18px;
+}
+
+nav ul li a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+nav ul li > a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+
+  transition: all ease-in-out 500ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown i {
+  font-size: 22px;
+}
+
+.dropdown-content {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  left: -20px;
+  min-width: 170px;
+  background-color:#55d6aa;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: all ease-in 0.2s;
+}
+
+.dropdown-content a {
+  font-size: 14px;
+  display: block;
+  padding: 0 5px;
+}
+
+.dropdown-content a:not(:last-child) {
+  border-bottom: 1px solid #0f3057;
+}
+
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.user-avatar {
+  width: 35px;
+  height: 35px;
+}
+
+.site-content {
+  background: #ccc;
+}
+
+.code h2 {
+  font-size: 22px;
+  margin: 5px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.code hr {
+  width: 100%;
+  margin: 5px 0;
+
+}
+.code-ground {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 150px;
+}
+
+.select {
+  width: 225px;
+  cursor: pointer;
+	border-radius: 2px;
+}
+
+.form-input {
+  width: 225px;
+  box-shadow:inset 0 0 2px 1px #888;
+  background: #fff;
+}
+
+.button-form {
+  width: 225px;
+  margin-left: 15px;
+  background-color: #0f3057;
+  color: white;
+}
+
+#recent-code-container {
+  margin: 5px;
+  margin-top: 15px;
+  height: 200px;
+}
+
+#recent-code-container .row {
+  margin: 0 !important;
+}
+
+.link {
+  margin: 0;  
+}
+
+.link a {
+  font-size: 16px;
+  color: chocolate;
+}
+
+.date-description {
+  display: block;
+  width: 100%;
+  color: rgb(105, 105, 105);
+}
+
+.dividor {
+  margin: 4px 0;
+}
+
+#single {
+  margin: 5px 0;
+  padding: 2px 0;
+}
+
+#single h2 {
+  margin: 0;
+  display: inline-block;
+  width: auto;
+}
+
+#single hr {
+  margin: 5px;
+}
+
+#single #code-data {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+#single #code-data p {
+  display: inline;
+  margin: 0;
+}
+
+.authForm {
+  width: 60%;
+}
+
+.authForm .form-group { 
+  margin-top: 5px;
+}
