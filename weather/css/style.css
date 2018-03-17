@@ -1,0 +1,81 @@
+header {
+  font-family: 'Damion', cursive;
+  font-size: 8em;
+  padding: 15px 0; }
+  header a {
+    color: #ecf0f1;
+    transition: color 0.4s ease-in; }
+    header a:hover {
+      text-decoration: none;
+      color: #ccc; }
+
+.input-box {
+  position: relative;
+  opacity: 0.8; }
+  .input-box .fa-search {
+    position: absolute;
+    top: 13px;
+    left: 7px;
+    font-size: 20px; }
+  .input-box input {
+    text-indent: 35px;
+    width: 250px;
+    height: 46px;
+    padding: 0;
+    border: 0;
+    border-radius: 1px 0 0 1px; }
+  .input-box button {
+    margin-top: -2px;
+    height: 46px;
+    border: 0;
+    padding: 3px 15px 0 15px;
+    background: #2ecc71;
+    transition: background 0.4s;
+    user-select: none;
+    font-family: Verdana sans-serif;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 18px; }
+    .input-box button:hover {
+      background: #27ae60; }
+
+#weather-container {
+  margin-top: 50px;
+  color: aliceblue; }
+  #weather-container .col-sm-3 {
+    padding: 0;
+    margin: 0 15px; }
+  #weather-container .weather-icon {
+    height: 155px;
+    width: 155px;
+    display: block;
+    margin: 0 auto; }
+  #weather-container h2 {
+    text-align: center; }
+  #weather-container #meta-data .weather-icon {
+    height: 22px;
+    width: 22px;
+    display: inline; }
+  #weather-container #meta-data p {
+    margin: 0;
+    font-size: 16px;
+    text-align: center; }
+  #weather-container #meta-data .w-100 {
+    margin-top: 5px; }
+
+html, head {
+  height: 100%; }
+
+body {
+  background: #136a8a;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #267871, #136a8a);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #267871, #136a8a);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+@font-face {
+  font-family: Saliva;
+  src: url(Selima.otf); }

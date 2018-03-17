@@ -1,0 +1,14 @@
+header {
+    font-family: 'Damion', cursive;
+    font-size: 8em;
+    padding: 15px 0;
+        
+    a {
+        color: #ecf0f1;
+        transition: color 0.4s ease-in;
+        &:hover {
+            text-decoration: none;
+            color: #ccc;
+        }
+    }
+}

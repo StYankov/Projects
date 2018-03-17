@@ -1,0 +1,36 @@
+.input-box {
+    position: relative;
+    opacity: 0.8;
+    
+    .fa-search {
+        position: absolute;
+        top: 13px;
+        left: 7px;
+        font-size: 20px;
+    }
+    input {
+        text-indent: 35px;
+        width: 250px;
+        height: 46px;
+        padding: 0;
+        border: 0;
+        border-radius: 1px 0 0 1px;
+    }
+    button {
+        margin-top: -2px;
+        height: 46px;
+        border: 0;
+        padding: 3px 15px 0 15px;
+        background: #2ecc71;
+        transition: background 0.4s;
+        user-select: none;
+        font-family: Verdana sans-serif;
+        color: aliceblue;
+        font-weight: 700;
+        font-size: 18px;
+        
+        &:hover {
+            background: #27ae60; 
+        }
+    }
+}
