@@ -1,0 +1,63 @@
+.container {
+  margin-top: 20px;
+}
+
+.todo-container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.notes-container {
+  width: 80%;
+  margin: 20px auto;
+  min-height: 200px;
+  -webkit-box-shadow: -1px 3px 12px 2px rgba(0,0,0,0.53);
+  -moz-box-shadow: -1px 3px 12px 2px rgba(0,0,0,0.53);
+  box-shadow: -1px 3px 12px 2px rgba(0,0,0,0.53);
+  padding: 10px;
+  color: rgb(145, 145, 145);
+  position: relative;
+}
+
+.remove-btn {
+  float: right;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.note-body:hover .remove-btn {
+  visibility: visible;
+  opacity: 1;
+}
+
+.icon {
+  padding: 0 10px;
+}
+
+.underlined {
+  text-decoration: line-through;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.btnContainer {
+  position: absolute;
+  bottom: 10px;
+  left: 15%;
+}
+
+.btnContainer button {
+  margin: 10px;
+}
